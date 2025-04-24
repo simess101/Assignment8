@@ -1,4 +1,3 @@
-```rust
 use std::{env, fs};
 use common::{Lex, TokenKind};
 
@@ -79,4 +78,3 @@ fn classify(s: &str) -> TokenKind {
         _ => Identifier,
     }
 }
-```

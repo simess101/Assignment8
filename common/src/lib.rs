@@ -1,4 +1,3 @@
-```rust
 //! Shared definitions for tokenizer and recognizer
 use std::fmt;
 
@@ -58,4 +57,3 @@ pub struct Lex {
     pub kind: TokenKind,
     pub lexeme: String,
 }
-```

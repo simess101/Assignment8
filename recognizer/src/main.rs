@@ -1,4 +1,3 @@
-```rust
 use std::{env, fs};
 use common::{Lex, TokenKind};
 
@@ -235,4 +234,3 @@ fn main() {
     parser.parse();
     fs::write(&args[2], "PARSED!!!\n").expect("Failed to write output");
 }
-```
